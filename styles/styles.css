@@ -4,12 +4,13 @@
     box-sizing: border-box;
     list-style: none;
 }
-
+/* Background color & fonts */
 body{
     background-color: rgb(122, 151, 168);
     font-family: 'Lato', sans-serif;
 }
 
+/* Add styles Information below the image */
 .profile-header{
     text-align: center;
     color: aliceblue;
@@ -17,7 +18,7 @@ body{
     font-size: 120%;
 }
 
-/*From W3Schools.com
+/* From W3Schools.com*/
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -52,6 +53,7 @@ body{
     display: none;
 }
 
+/* TopNav */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -59,7 +61,6 @@ body{
         display: block;
     }
 }
-  
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
@@ -73,13 +74,14 @@ body{
         text-align: left;
     }
 }
-
+/* margin left */
 .left{
     display: block;
     margin-left:2%;
     margin-right:0%;
 }
 
+/* margin center */
 .center{
     display: block;
     margin-left:auto;
