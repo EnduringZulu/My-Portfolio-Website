@@ -14,9 +14,11 @@ body{
 .profile-header{
     color: aliceblue;
     margin-left: 2%;
-    font-size: 80%;
+    font-size: 100%;
     padding: 10px;
     flex: 50%;
+    font-weight: 30%;
+    text-transform:capitalize;
 }
 
 /* From W3Schools.com*/
@@ -122,6 +124,7 @@ header {
     font-size: 120%;
     margin-top: auto;
     margin-right: auto;
+    margin-bottom: 10%;
 }
 
 @media (max-width: 800px) {
